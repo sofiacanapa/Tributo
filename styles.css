@@ -1,3 +1,91 @@
-.videol {
-    width: 30%;
+body {
+    background-color: rgb(210, 207, 202);
+    font-family: ; /* Añadí una fuente para mejor lectura */
+    margin: 0; /* Elimino márgenes por defecto del body */
+}
+header {
+    background-color: #f0f0f0; /* Un color de fondo suave para la cabecera */
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+header h1 a {
+    text-decoration: none;
+    color: #46c1cd;
+    font-size: 2.5em; /* Ajusté el tamaño del título principal */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+h3 {
+    color: #333;
+}
+p {
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+.video-container {
+    margin: 20px 0;
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+    position: relative;
+    height: 0;
+}
+.video-responsive iframe,
+.video-responsive video {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+img {
+    max-width: 100%; /* Para que la imagen no se desborde en pantallas pequeñas */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centra la imagen y añade espacio */
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed; /* Para que el footer se quede abajo */
+    bottom: 0;
+    width: 100%;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.chiquita {
+    width: 300px;
 }
